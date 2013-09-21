@@ -33,7 +33,7 @@
 #pragma mark - Text Alignment Convertion
 /////////////////////////////////////////////////////////////////////////////////////
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 60000
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_6_0
   #define NSUITextAlignment NSTextAlignment
   #define NSUILineBreakMode NSLineBreakMode
 #else
